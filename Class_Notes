@@ -1,0 +1,15 @@
+
+
+
+Matrizes
+
+Podemos declarar um vetor como;
+
+	int vetor[4] = {1, 2, 3, 4}
+	int vetor[4] = {0} -> Todos os elementos serao zero
+	char str[10]; -> Representa uma string
+	scanf("%s", str); -> Quando escaneamos automaticamente e' adicionado um \0 no final da string
+
+Alocacao dinamica
+
+calloc - reserva e zera toda a area de memoria alocada.	
