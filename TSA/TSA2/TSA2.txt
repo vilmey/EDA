@@ -1,0 +1,21 @@
+1- 
+
+	a) No melhor caso do problema (array já ordenado) e utilizando a técnica bubble sort temos que 		
+	verificar o array de dados completamente ao menos uma vez. Então para uma massa de dados de
+	tamanho n, temos uma complexidade O(n).
+
+	b) Já no segundo e pior caso, temos a ordenação de um vetor em ordem decrescente. Para ordenar
+	um vetor descrescente em ordem crescente, o algoritmo utilizado encontra maior dificuldade,
+	uma vez que a uma primeira ordenação não se faz suficiente. Na segunda varredura temos que
+	lidar com (n-1) elementos, visto que a cada interação garantimos a posição de ao menos um
+	termo do array. Na terceira interação lidamos com (n-2), (n-3) e assim por diante.
+	O resultado destas intarações n+(n-1)+(n-2)+(n-3)..(3)+(2) = O(n²).
+
+
+
+2-
+
+	b) A ordem de complexodade da função apresentada é Teta(n), pois a distância a ser percorrida
+	depende de uma variável de entrada (n). E quanto maior este n, maior o tempo para que a função
+	seja realizada. Como a função de recursividade não possui laços aninhados ou processos que 	
+	variem sua complexidada devido a entrada (n) da função, o grau da função não é incremetado.

@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+int Compara_string(char * str1, char * str2, int i)
+{
+	int compare;
+
+
+	if((str1[i]== '\0') & (str2[i]== '\0'))
+	{
+		return 1;
+	}
+
+	else
+	{
+		if(str1[i] == str2[i])
+		{
+			i++;
+			return(Compara_string(str1,str2, i));
+		}
+		else
+			return 0;
+	}
+
+	//return compare;
+}
+
+
+int main ()
+{
+	char str1[] = {"Essa e a string 1"}, str2[] = {"Essa e a string"};
+
+
+	printf("Resultado: %d\n", Compara_string(str1, str2, 0));
+
+
+	return 0;
+}

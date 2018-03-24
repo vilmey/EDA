@@ -1,0 +1,59 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BiDiMode = bdLeftToRight
+  Caption = 'Form1'
+  ClientHeight = 798
+  ClientWidth = 1125
+  Transparency = False
+  Visible = False
+  StyleLookup = 'backgroundstyle'
+  object GroupBox1: TGroupBox
+    Align = alBottom
+    Position.Point = '(0,272)'
+    Width = 1125.000000000000000000
+    Height = 526.000000000000000000
+    TabOrder = 0
+    Text = #193'rvore H: '
+    object Line1: TLine
+      Position.Point = '(520,144)'
+      Width = 50.000000000000000000
+      Height = 50.000000000000000000
+      LineType = ltTop
+    end
+  end
+  object Button1: TButton
+    Position.Point = '(448,48)'
+    Width = 80.000000000000000000
+    Height = 22.000000000000000000
+    OnClick = Button1Click
+    TabOrder = 1
+    StaysPressed = False
+    IsPressed = False
+    Text = 'Button1'
+  end
+  object Label1: TLabel
+    Position.Point = '(96,40)'
+    Width = 97.000000000000000000
+    Height = 15.000000000000000000
+    TabOrder = 2
+    Text = 'Tamanho Inicial: '
+  end
+  object CheckBox1: TCheckBox
+    Position.Point = '(640,48)'
+    Width = 120.000000000000000000
+    Height = 19.000000000000000000
+    TabOrder = 3
+    IsChecked = False
+    Text = 'Mostrar Recurs'#227'o'
+  end
+  object Edit1: TEdit
+    Position.Point = '(192,40)'
+    Width = 100.000000000000000000
+    Height = 22.000000000000000000
+    TabOrder = 13
+    ReadOnly = False
+    Password = False
+    Text = '100'
+  end
+end
